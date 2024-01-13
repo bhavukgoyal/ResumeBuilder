@@ -1,0 +1,300 @@
+
+.nab{
+   height: auto;
+width: 100%;
+    background-color: white;
+    text-align: end;
+    padding-top: 20px;
+padding-bottom: 20px;
+box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+.link{
+  
+  font-family:fantasy;
+    color: rgb(0, 0, 0);
+    font-weight:bolder;
+    text-decoration: none;
+    padding: 70px;
+    
+}
+.active{
+  
+  font-family:fantasy;
+    color:blue;
+    font-weight:bolder;
+    text-decoration: none;
+    padding: 70px;
+    
+}
+.link:hover{color:blue;}
+
+.icon{
+   float:left;
+   color: black;
+  
+}
+
+
+.hom{
+background-color:indigo;
+ padding-top: 1px;
+ height: 1000px;
+ border-top: 2px solid black;
+}
+.heading{
+  margin: 50px;
+  
+}
+.heading h1{
+  
+margin-bottom: -15px;
+}
+.inl{
+margin-left: 50px;
+}
+.one{
+  display:inline-block;  
+  margin-right:30px;
+  position: relative;
+  width:200px;
+  margin-bottom:30px;
+  
+}
+.one img{
+  
+  width: 200px;
+  height: 300px;
+  border:2px;
+  border-style: solid;
+  border-color: black;
+}
+
+.one:hover img {
+  opacity: 0.1;
+ 
+}
+
+.one:hover .text {
+  opacity: 1;
+}
+
+.text{
+  
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  
+  form{
+   
+    border-style: solid;
+    border-width: 2px;
+    border-color: blue;
+    width:fit-content;
+    height: auto;
+    padding: 20px;
+  }
+  .names{
+    display:inline-block;
+    margin-right: 30px;
+    margin-top:30px;
+
+  }
+  .perbut{
+    display: block;
+    text-align: end;
+ 
+    margin-top: 100px;
+  
+    
+    
+}
+.perbut Button{
+
+  margin: 10px;
+}
+.perbut Button:hover{
+  background-color: blue;
+  color:white;
+}
+.und{
+  text-decoration: none;
+  color:white;
+}
+.tex{
+  height:100px;
+  width:465px;
+  
+  
+}
+#newavatar{
+  border-radius: 100px;
+}
+.activee{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  background-color:black;
+  color:white;
+  border: 2px;
+  border-color: black;
+  border-style: solid;
+  text-decoration: none;
+  width: 200px;
+  height: 50px;
+  padding: 10px;
+}
+
+.na{
+  
+  display: flex;
+  margin: 100px;
+  
+}
+
+.nav{
+  display: inline;
+ margin-right: 50px;
+  
+}
+.van{
+  display: inline;
+}
+.inav{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  background-color:cyan;
+  color:blue;
+  border: 2px;
+  border-color: black;
+  border-style: solid;
+  text-decoration: none;
+  width: 200px;
+  height: 50px;
+}
+
+.addbut{
+  margin-top: 30px;
+  
+}
+.crossSign {
+ 
+background-color: purple;
+  color: white;
+display: flex;
+  cursor: pointer;
+  width: 20px;
+  align-items: center;
+ height: 20px;
+  justify-content: center;
+  padding: 2px;
+}
+.crossSign1 {
+ margin-top: 20px;
+  background-color: purple;
+    color: white;
+  display: flex;
+    cursor: pointer;
+    width: 20px;
+    align-items: center;
+   height: 20px;
+    justify-content: center;
+    padding: 2px;
+  }
+  .modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 21cm; /* A4 width in centimeters */
+    max-width: 100%;
+    max-height: 100vh; /* Fit to the height of the viewport */
+    overflow-y: auto; /* Enable vertical scrolling if content exceeds the viewport height */
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  
+    background-color: transparent; /* Set background color to transparent */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .label {
+    position: relative; /* Set position to relative */
+    z-index: 1; /* Set a lower value to place the labels behind the preview content */
+  }
+  .labe {
+    position: relative; /* Set position to relative */
+    z-index: -1; /* Set a lower value to place the labels behind the preview content */
+  }
+.myres{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color:burlywood;
+  color: darkred;
+  margin-top: 40vh;
+}
+.resume-builder-wrapper {
+  display: inline-block;
+}
+
+.resume-builder-line {
+  border: none;
+  border-bottom: 2px solid;
+  width: 100%;
+  margin-top: -20px;
+  color: blue;
+  
+}
+.aboutclass{
+ height: 100vh;
+  background-color: paleturquoise;
+}
+  @media screen and (max-width: 800px) {
+    .hom{
+      height: auto;
+    }
+    .link {
+      
+      display: block;
+      padding:10px;
+    }
+    .one{
+      display: block;  
+      margin-right:30px;
+      margin-bottom:30px;
+      position: relative;
+      width:200px;
+      
+    }
+    .names{display: block;}
+    .perbut Button{
+      display: block;
+      margin: 0;
+      margin-bottom: 10px;
+
+    }
+    .na{
+      display: block;
+      margin: 100px;
+      
+    }
+}

@@ -1,0 +1,43 @@
+.resume-container {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+
+                
+  }
+  .resume-container h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .resume-container p {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  .resume-container img {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  .resume-container .section {
+    margin-bottom: 20px;
+  }
+  .resume-container .section-title {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .resume-container .skills-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  .resume-container .skills-list li {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+
+  
