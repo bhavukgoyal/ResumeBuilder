@@ -4,7 +4,7 @@ import img2 from './preimg2.jpg';
 import img3 from './preimg3.jpg';
 import img4 from './preimg4.jpg';
 import Button from '@mui/material/Button';
-
+import Link from 'react-router-dom';
 
 
 
@@ -38,8 +38,8 @@ function Home() {
     <p style={{color:"white"}}><b>Select a Template to get started</b></p>
     </div>
   <div className="inl">
-   <div className="one"><img src={img2}  alt="Img 1"/><div className='text'>
-   <Button variant="contained"color="success" onClick={() => handleTemplateChange(1)}>Use Template</Button></div></div>
+   <div className="one"><img src={img2}  alt="Img 1"/><div className='text'><Link to="./Personal Info">
+   <Button variant="contained"color="success" onClick={() => handleTemplateChange(1)}>Use Template</Button></Link></div></div>
     <div className="one"><img src={img1}  alt="Img 2"/><div className='text'>
     
     <Button variant="contained"color="success"onClick={() => handleTemplateChange(2)}>Use Template</Button></div></div>
