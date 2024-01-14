@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/ResumeBuilder/static/css/main.d8d72881.css",
-    "main.js": "/ResumeBuilder/static/js/main.d8651b9c.js",
-    "static/js/703.17866f95.chunk.js": "/ResumeBuilder/static/js/703.17866f95.chunk.js",
-    "static/js/379.f41d68b8.chunk.js": "/ResumeBuilder/static/js/379.f41d68b8.chunk.js",
-    "static/js/787.7f3e1eab.chunk.js": "/ResumeBuilder/static/js/787.7f3e1eab.chunk.js",
-    "static/media/preimg2.jpg": "/ResumeBuilder/static/media/preimg2.03a109da59e3e0aac7e5.jpg",
-    "static/media/preimg4.jpg": "/ResumeBuilder/static/media/preimg4.ca10052a8e2d08e3f31c.jpg",
-    "static/media/preimg1.jpg": "/ResumeBuilder/static/media/preimg1.f8eaca8b1a8a40c2f7b7.jpg",
-    "static/media/preimg3.jpg": "/ResumeBuilder/static/media/preimg3.35d7956ba51e59d27e05.jpg",
-    "static/media/resmg": "/ResumeBuilder/static/media/resmg.c5da6c1b1870fdac4ae7",
-    "index.html": "/ResumeBuilder/index.html",
-    "main.d8d72881.css.map": "/ResumeBuilder/static/css/main.d8d72881.css.map",
-    "main.d8651b9c.js.map": "/ResumeBuilder/static/js/main.d8651b9c.js.map",
-    "703.17866f95.chunk.js.map": "/ResumeBuilder/static/js/703.17866f95.chunk.js.map",
-    "379.f41d68b8.chunk.js.map": "/ResumeBuilder/static/js/379.f41d68b8.chunk.js.map",
-    "787.7f3e1eab.chunk.js.map": "/ResumeBuilder/static/js/787.7f3e1eab.chunk.js.map"
+    "main.css": "./static/css/main.d8d72881.css",
+    "main.js": "./static/js/main.bb04e576.js",
+    "static/js/703.17866f95.chunk.js": "./static/js/703.17866f95.chunk.js",
+    "static/js/379.f41d68b8.chunk.js": "./static/js/379.f41d68b8.chunk.js",
+    "static/js/787.7f3e1eab.chunk.js": "./static/js/787.7f3e1eab.chunk.js",
+    "static/media/preimg2.jpg": "./static/media/preimg2.03a109da59e3e0aac7e5.jpg",
+    "static/media/preimg4.jpg": "./static/media/preimg4.ca10052a8e2d08e3f31c.jpg",
+    "static/media/preimg1.jpg": "./static/media/preimg1.f8eaca8b1a8a40c2f7b7.jpg",
+    "static/media/preimg3.jpg": "./static/media/preimg3.35d7956ba51e59d27e05.jpg",
+    "static/media/resmg": "./static/media/resmg.c5da6c1b1870fdac4ae7",
+    "index.html": "./index.html",
+    "main.d8d72881.css.map": "./static/css/main.d8d72881.css.map",
+    "main.bb04e576.js.map": "./static/js/main.bb04e576.js.map",
+    "703.17866f95.chunk.js.map": "./static/js/703.17866f95.chunk.js.map",
+    "379.f41d68b8.chunk.js.map": "./static/js/379.f41d68b8.chunk.js.map",
+    "787.7f3e1eab.chunk.js.map": "./static/js/787.7f3e1eab.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d8d72881.css",
-    "static/js/main.d8651b9c.js"
+    "static/js/main.bb04e576.js"
   ]
 }
