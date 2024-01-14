@@ -4,7 +4,7 @@ import img2 from './preimg2.jpg';
 import img3 from './preimg3.jpg';
 import img4 from './preimg4.jpg';
 import Button from '@mui/material/Button';
-import Link from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 
 
