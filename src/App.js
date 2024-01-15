@@ -5,7 +5,7 @@ import Contact from './Contact.js';
 import Personal from './Personal.js'
 import './App.css';
 import Navbar from './Navbar';
-import {HashRouter,Routes, Route } from "react-router-dom";
+import {Routes, Route } from "react-router-dom";
 import Work from './Work.js';
 import Edu from "./Edu";
 import Key from "./Key.js";
@@ -20,7 +20,7 @@ import Education from "./Education.js";
 function App() {
   
   return ( <div>
-  <HashRouter>
+  
    
      <Navbar/>
     
@@ -39,7 +39,7 @@ function App() {
       <Route path="Blah" element ={<Blah/>}/>
     </Routes>
   
-</HashRouter>  </div>
+  </div>
   );
 }
 
