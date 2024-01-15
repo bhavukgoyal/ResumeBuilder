@@ -22,11 +22,11 @@ function Home() {
   
 
   const handleTemplateChange = templateNumber => {
-    setTemplate(templateNumber);
+      
     
       
       window.location.hash = 'https://bhavukgoyal.github.io/ResumeBuilder/#/Personal%20Info';
-    
+      setTemplate(templateNumber);
   }
   useEffect(() => {
     localStorage.setItem('Template', (template)); // Store the template value in local storage whenever it changes
