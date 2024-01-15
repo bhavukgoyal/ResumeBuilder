@@ -5,7 +5,7 @@ import Contact from './Contact.js';
 import Personal from './Personal.js'
 import './App.css';
 import Navbar from './Navbar';
-import {Routes, Route } from "react-router-dom";
+import {HashRouter,Routes, Route } from "react-router-dom";
 import Work from './Work.js';
 import Edu from "./Edu";
 import Key from "./Key.js";
@@ -19,8 +19,9 @@ import Education from "./Education.js";
 
 function App() {
   
-  return (
-    <div>
+  return ( <div>
+  <HashRouter>
+   
      <Navbar/>
     
     <Routes>
@@ -37,8 +38,8 @@ function App() {
       <Route path="Personal Info" element ={<PersonalInfo/>}/>
       <Route path="Blah" element ={<Blah/>}/>
     </Routes>
-  </div>
-      
+  
+</HashRouter>  </div>
   );
 }
 
