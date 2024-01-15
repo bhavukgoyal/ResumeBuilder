@@ -24,8 +24,8 @@ function Home() {
   const handleTemplateChange = templateNumber => {
     setTemplate(templateNumber);
     
-      // Navigate to the desired link using window.location
-      window.location.hash = './Personal Info';
+      
+      window.location.hash = '/Personal Info';
     
   }
   useEffect(() => {
