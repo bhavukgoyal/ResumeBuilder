@@ -25,7 +25,7 @@ function Home() {
       
     
       
-      window.location.hash = './Personal Info';
+      window.location.hash = '/Personal Info';
       setTemplate(templateNumber);
   }
   useEffect(() => {
