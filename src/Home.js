@@ -23,7 +23,7 @@ function Home() {
     setTemplate(templateNumber);
     
       // Navigate to the desired link using window.location
-      window.location.href = 'Personal Info';
+      window.location.href = '#/Personal Info';
     
   }
   useEffect(() => {
