@@ -24,9 +24,9 @@ function Home() {
   const handleTemplateChange = templateNumber => {
       
     
-      
+    setTemplate(templateNumber);
       window.location.hash = '/Personal Info';
-      setTemplate(templateNumber);
+      
   }
   useEffect(() => {
     localStorage.setItem('Template', (template)); // Store the template value in local storage whenever it changes
