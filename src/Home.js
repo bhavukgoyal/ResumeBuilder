@@ -25,7 +25,7 @@ function Home() {
       
     
       
-      window.location.hash = 'https://bhavukgoyal.github.io/ResumeBuilder/#/Personal%20Info';
+      window.location.hash = './Personal Info';
       setTemplate(templateNumber);
   }
   useEffect(() => {
