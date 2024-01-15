@@ -25,6 +25,7 @@ function Home() {
       
     
     setTemplate(templateNumber);
+    console.log(template)
       window.location.hash = '/Personal Info';
       
   }
