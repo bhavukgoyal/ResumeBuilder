@@ -4,14 +4,16 @@ import img2 from './preimg2.jpg';
 import img3 from './preimg3.jpg';
 import img4 from './preimg4.jpg';
 import Button from '@mui/material/Button';
-
+import { useHistory } from 'react-router-dom';
 
 
 
 
 
 function Home() {
- 
+  
+  const history = useHistory();
+
   const [template, setTemplate] = useState(() => {
     const storedTemplate = localStorage.getItem('Template'); // Get the stored template value from local storage
     return storedTemplate ? (storedTemplate) : '';
@@ -23,7 +25,7 @@ function Home() {
     setTemplate(templateNumber);
     
       // Navigate to the desired link using window.location
-      window.location.href = '#/Personal Info';
+      history.push('./Personal Info');
     
   }
   useEffect(() => {
