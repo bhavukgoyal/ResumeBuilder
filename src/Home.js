@@ -21,7 +21,7 @@ function Home() {
      localStorage.setItem('Template', (template))
      localStorage.getItem('Template');
     console.log(template)
-    //window.location.hash = '/Personal Info';
+    window.location.hash = '/Personal Info';
       
   }
 /*
