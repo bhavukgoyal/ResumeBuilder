@@ -14,16 +14,17 @@ function Home() {
 
   const [template, setTemplate] = useState(null)
   
- const handleTemplateChange = templateNumber => {
-      
-    
+  const handleTemplateChange = templateNumber => {
     setTemplate(templateNumber);
-     localStorage.setItem('Template', (template))
-     localStorage.getItem('Template');
-    console.log(template)
+    localStorage.setItem('Template', templateNumber);
+    console.log(template);
     window.location.hash = '/Personal Info';
-      
-  }
+  };
+
+  useEffect(() => {
+    const storedTemplate = localStorage.getItem('Template');
+    setTemplate(storedTemplate ? parseInt(storedTemplate) : null);
+  }, []);
 /*
 useEffect(() => {
     localStorage.setItem('Template', (template)); // Store the template value in local storage whenever it changes
