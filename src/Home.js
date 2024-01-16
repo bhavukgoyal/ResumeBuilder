@@ -18,18 +18,20 @@ function Home() {
       
     
     setTemplate(templateNumber);
+     localStorage.setItem('Template', (template))
+     localStorage.getItem('Template');
     console.log(template)
     //window.location.hash = '/Personal Info';
       
   }
-
+/*
 useEffect(() => {
     localStorage.setItem('Template', (template)); // Store the template value in local storage whenever it changes
-  }, [template]);
-  
+  }, [template]);*/
+
   //const [template, setTemplate] = useState(() => {
     //const storedTemplate = 
-    localStorage.getItem('Template'); // Get the stored template value from local storage
+    // Get the stored template value from local storage
     //return storedTemplate ? (storedTemplate) : '';
   //});
   
