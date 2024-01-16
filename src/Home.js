@@ -19,21 +19,20 @@ function Home() {
     return storedTemplate ? (storedTemplate) : '';
   });
   
-  
+    useEffect(() => {
+    localStorage.setItem('Template', (template)); // Store the template value in local storage whenever it changes
+  }, [template]);
 
   const handleTemplateChange = templateNumber => {
       
     
     setTemplate(templateNumber);
-    localStorage.setItem('Template', (template));
     console.log(template)
-     // window.location.hash = '/Personal Info';
+    window.location.hash = '/Personal Info';
       
   }
-  /*useEffect(() => {
-    localStorage.setItem('Template', (template)); // Store the template value in local storage whenever it changes
-  }, [template]);
- */
+
+ 
   return (
 
     <div className="hom">
