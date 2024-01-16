@@ -25,14 +25,15 @@ function Home() {
       
     
     setTemplate(templateNumber);
+    localStorage.setItem('Template', (template));
     console.log(template)
      // window.location.hash = '/Personal Info';
       
   }
-  useEffect(() => {
+  /*useEffect(() => {
     localStorage.setItem('Template', (template)); // Store the template value in local storage whenever it changes
   }, [template]);
- 
+ */
   return (
 
     <div className="hom">
