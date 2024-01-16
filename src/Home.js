@@ -11,19 +11,10 @@ import Button from '@mui/material/Button';
 
 
 function Home() {
-  
- 
 
-  const [template, setTemplate] = useState(() => {
-    const storedTemplate = localStorage.getItem('Template'); // Get the stored template value from local storage
-    return storedTemplate ? (storedTemplate) : '';
-  });
+  const [template, setTemplate] = useState(null)
   
-    useEffect(() => {
-    localStorage.setItem('Template', (template)); // Store the template value in local storage whenever it changes
-  }, [template]);
-
-  const handleTemplateChange = templateNumber => {
+ const handleTemplateChange = templateNumber => {
       
     
     setTemplate(templateNumber);
@@ -31,6 +22,20 @@ function Home() {
     //window.location.hash = '/Personal Info';
       
   }
+
+useEffect(() => {
+    localStorage.setItem('Template', (template)); // Store the template value in local storage whenever it changes
+  }, [template]);
+  
+  //const [template, setTemplate] = useState(() => {
+    //const storedTemplate = 
+    localStorage.getItem('Template'); // Get the stored template value from local storage
+    //return storedTemplate ? (storedTemplate) : '';
+  //});
+  
+    
+
+  
 
  
   return (
